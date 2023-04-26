@@ -718,25 +718,7 @@ insert into Student values (34,234,'a','arunkumar',59,90,790,'athi','vino','sam'
            UPDATE Student SET staffs=60 where classno=240;
            
            
-             create table Student(sno int unique,classno int primary key,sec varchar(3),name varchar(20) not null,marks int ,percentage int,attendence bigint,signature varchar(20),advisor varchar(20),tutor varchar(20),
-    hod varchar(20)not null,staffs int,students int,benches int,boards int,rep int,assistrep int,fees bigint,schoolname varchar(20) not null,city varchar(20)not null);
-
-    update Student set city='surat'where classno=202;     
-	update Student set schoolname='hillfort'where classno=202;     
-    update Student set fees= 23800 where classno=202;  
-	update Student set  assistrep = 3 where classno=202;   
-	update Student set  rep=2 where classno=202;     
-    update Student set  boards=2 where classno=202; 
-	update Student set benches=3   where classno=202; 
-	update Student set hod='selvasheela' where classno=202;     
-	update Student set sno=02 where classno=202; 
-    update Student set sec='c'where classno=202;  
-    update Student set name='fujisan'where classno=202;     
-    update Student set  signature='fuji' where classno=202;     
-    update Student set  advisor='meera' where classno=202;     
-    update Student set tutor='swethw' where classno=202;     
-    update Student set  classno=202 where sno=02;
-
+            
 
 
 
